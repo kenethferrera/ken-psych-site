@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-neon-green: #39ff14;
+  --color-deep-violet: #6c2eb7;
+  --color-offwhite: #f8f8f2;
+}
+
+body {
+  @apply bg-black text-offwhite font-sans;
+}
+
+.text-offwhite {
+  color: var(--color-offwhite);
+}
+.bg-neon-green {
+  background-color: var(--color-neon-green);
+}
+.bg-violet-700 {
+  background-color: var(--color-deep-violet);
+}
+.font-cabin-sketch {
+  font-family: 'Cabin Sketch', cursive;
+} 
